@@ -1,0 +1,4 @@
+{
+  "testFiles": ["**/*.feature", "**/*.spec.js"],
+  "watchForFileChanges": false
+}
