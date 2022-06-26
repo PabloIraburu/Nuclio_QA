@@ -1,10 +1,6 @@
 import {Given, When, Then} from 'cypress-cucumber-preprocessor/steps'
 
 
-
-Given(/^I am at the (traversal|actions) demo page$/, function (page) {
-    cy.visit(`https://example.cypress.io/commands/${page}`)
-});
 When(/^I look for the (children|third text in the list) of the (first|third) example$/, function (text, scenario) {
     switch (scenario){
         case('first'):

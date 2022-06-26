@@ -2,7 +2,7 @@ import {Given, Then} from 'cypress-cucumber-preprocessor/steps'
 
 
 
-Given(/^I am at the (traversal|actions) demo page$/, function (page) {
+Given(/^I am at the (traversal|actions|querying) demo page$/, function (page) {
     cy.visit(`https://example.cypress.io/commands/${page}`)
 });
 
