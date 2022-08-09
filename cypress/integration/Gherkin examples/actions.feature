@@ -3,8 +3,8 @@ Feature: NUCLIO cypress Action testing
 
   Scenario: Fill input element
     Given I am at the actions demo page
-    When I type "test" in the text input of the first example
-    Then It contains the "test" text
+    When I type "fake@email.com" in the text input of the second example
+    Then It contains the "Pablo" text
 
 
   Scenario: Clear input element

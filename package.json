@@ -6,5 +6,8 @@
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,
     "stepDefinitions": "cypress/integration"
+  },
+  "dependencies": {
+    "cucumber": "^6.0.7"
   }
 }

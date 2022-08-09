@@ -1,8 +1,8 @@
-import {Given, When, Then} from 'cypress-cucumber-preprocessor/steps'
+import { When, Then} from 'cypress-cucumber-preprocessor/steps'
 
 let scenarioElement
 
-When(/^I type "([^"]*)" in the text input of the (first|fourth) example$/, function (text,test) {
+When(/^I type "([^"]*)" in the text input of the (first|second|fourth) example$/, function (text,test) {
     const translator = {
         "first":".action-email",
         "fourth":".form-control.action-clear"
